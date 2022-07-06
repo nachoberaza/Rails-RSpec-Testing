@@ -20,6 +20,11 @@ rspec <ubicancion del archivo>
 ```sh
 bundle binstubs rspec-core
 ```
+o simplemente correr el comando 
+```sh
+rspec
+```
+
 ### Matchers
 
 Implementacion de matchers para la validacion de de condiciones tales como el 
