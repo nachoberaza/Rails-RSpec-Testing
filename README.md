@@ -2,13 +2,14 @@
 
 1. Agregar al Gemfile
 ```Ruby 
-gem 'rspec', '~> 3.10'
+gem 'rspec'
+gem 'rspec-rails'
 ```
 2. Ejecutar _'bundle install'_
 
 3. Una vez instalado ejecutar 
 ```ruby
-rspec --init
+rails g rspec:install
 ```
 4. En el directorio _'spec'_ se ubican los tests
 
